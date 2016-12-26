@@ -1,0 +1,98 @@
+html { min-width: 600px; }
+
+body {
+	font-size: 12px;
+    font-family: verdana,sans-serif;
+}
+
+div, caption, td, th, h2, h3, h4 { /* redundant rules for bad browsers  */  
+	font-size: 12px;
+    font-family: verdana,sans-serif;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	color: #333;
+}  
+.clearhack { display: inline; } /*Clears Box Model Hack in IE5*/
+
+body {
+	background: #99cccc;
+	color: #333;
+	margin: 0; /* margin and padding only necessary to cater for Mac IE5 */
+	padding: 0;
+}
+
+a { color: #06C; }
+a:hover { color: #333; }
+a:active { color: #000; }
+
+p { line-height: 140%; }
+
+h1,h2 {
+	font-family: trebuchet ms;
+	font-weight: bold;
+	color: #333;
+}
+
+h1 {
+	font-size: 180%;
+	margin: 0;
+}
+
+h1 a { text-decoration: none; color: #333; }
+h1 a:hover { border-bottom: 1px dotted #666; color: #000; }
+
+h2 {
+	font-size: 140%;
+	padding-bottom: 2px;
+	padding-top: 15px;
+	border-bottom: 1px solid #CCC;
+	margin: 0;
+}
+
+p.note {
+	background: #EEE;
+	padding: 4px;
+	font-family: tahoma;
+	font-size: 85%;
+	line-height: 130%;
+	margin-top: 0;
+}
+
+#icon {
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#rest {
+  width: 100%;
+}
+
+#left {
+  float: left;
+  width:45%;
+}
+#right {
+	width: 45%;
+	float: right;
+}
+
+
+* {
+   margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.wrapper {
+     min-height: 100%;
+     height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+.footer, .push {
+       height: 4em;
+}
+

@@ -1,0 +1,35 @@
+body 
+{ 
+margin: 0; 
+padding: 0 0 0 38px; 
+color: #000; 
+background: #e6e6e6; 
+font-size: 1em; 
+} 
+div#sidebar 
+/*{ 
+overflow: auto; 
+height: 100%; 
+width: 37px; 
+position: absolute; 
+top: 0; 
+left: 0; 
+color: #000; 
+background: #fffdf3;
+background-color: #fffdf3;
+background-image: url(../images/vertical_logo.gif);
+background-repeat: no-repeat;
+} */
+div#content 
+{ 
+padding:0px; 
+background: #99cccc;
+} 
+
+@media screen 
+{ 
+body>div#sidebar 
+  { 
+  position: fixed; 
+  } 
+} 

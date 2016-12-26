@@ -1,0 +1,137 @@
+/*
+=====================================
+ * Data Tables and Cascading Style Sheets Gallery *
+ *  http://icant.co.uk/csstablegallery/index.php  *
+ * Author: Velizar Garvalov at  http://www.vhg-design.com/ *
+ =====================================
+*/
+
+table {
+	width: 99%;
+	margin:0; 
+ 	padding:0;
+	font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+	color: #1c5d79;
+	
+}
+table, tr, th, td {
+	border-collapse: collapse;
+}
+caption {
+	margin:0; 
+ 	padding:0;
+	background: #f3f3f3;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 2px;
+	font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+	font-size: 140%;
+	font-weight: bold;
+	color: #000;
+	text-align: left;
+	letter-spacing: 1px;
+	border-top: dashed 1px #c2c2c2;
+	border-bottom: dashed 1px #c2c2c2;
+}
+
+/* HEAD */
+
+thead {
+	background-color: #FFFFFF;
+	border: none;
+}
+thead tr th {
+	height: 32px;
+	aline-height: 32px;
+	text-align: center;
+	color: #1c5d79;
+	background-image: url(../images/col_bg.gif);
+	background-repeat: repeat;
+	border-left:solid 1px #FF9900;
+	border-right:solid 1px #FF9900;	
+	border-collapse: collapse;
+	
+}
+
+/* BODY */
+
+tbody tr {
+	background: #dfedf3;
+	font-size: 110%;
+}
+tbody tr.odd {
+	background: #F0FFFF;
+}
+tbody tr:hover, tbody tr.odd:hover {
+	background: #ffffff;
+}
+tbody tr th, tbody tr td {
+	padding: 6px;
+	border: solid 1px #326e87;
+}
+tbody tr th {
+	background: #1c5d79;
+	font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+	font-size: 100%;
+	padding: 6px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-bottom: solid 1px white;
+}
+tbody tr th:hover {
+	background: #ffffff;
+
+}
+
+/* LINKS */
+
+table a {
+	color: #FF6600;
+	text-decoration: none;
+	font-size: 110%;
+	//border-bottom: solid 1px white;
+}
+table a:hover {
+	color: #FF9900;
+	border-bottom: none;
+}
+
+/* FOOTER */
+
+tfoot {
+	background: #f3f3f3;
+	height: 24px;
+	line-height: 24px;
+	font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+	font-size: 120%;
+	font-weight: bold;
+	color: #555d6d;
+	text-align: center;
+	letter-spacing: 3px;
+	border-top: solid 2px #326e87;
+	border-bottom: dashed 1px #c2c2c2;
+}
+tfoot tr th, tfoot tr td {
+	/*padding: .1em .6em;*/
+	
+}
+tfoot tr th {
+	border-top: solid 1px #326e87;
+}
+tfoot tr td {
+	text-align: right;
+	
+}
+
+/* Sortable tables */
+table.sortable a.sortheader {
+    text-decoration: none;
+    display: block;
+	color: #1c5d79;
+	xcolor: #000000;
+}
+table.sortable span.sortarrow {
+    color: black;
+    text-decoration: none;
+}
