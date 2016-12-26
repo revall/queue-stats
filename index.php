@@ -533,6 +533,6 @@ echo "<a href=\"javascript:setdates('$begin_past2_month', '$end_month')\">".$lan
 </div>
 </div>
 </div>
-<div id='footer'>mod by reval based on olegus- <a href='http://asterisk-pbx.ru/wiki/soft/call_center/asternic-call-center-stats'>Asterisk Call Center Stats</a> </div>
+<div id='footer'>mod by revall based on olegus- <a href='http://asterisk-pbx.ru/wiki/soft/call_center/asternic-call-center-stats'>Asterisk Call Center Stats</a> </div>
 </body>
 </html>
